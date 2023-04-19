@@ -200,3 +200,9 @@ AWS_ECR_LOGIN_URI = demo>> 566373416292.dkr.ecr.ap-south-1.amazonaws.com
 ECR_REPOSITORY_NAME = your-app
 
 ##### ec2 and ecr
+
+
+##### Finally
+in github action you see on doing commit
+
+CONTINUOUS INTEGRATION -- CONTINUOUS INTEGRATION -- CONTINUOUS DEPLOYMENT
