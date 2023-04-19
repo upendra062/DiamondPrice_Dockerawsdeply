@@ -90,3 +90,113 @@ O/P: PREDICTION
 
 ###### run docker
 docker build -t diamondprediction:latest .
+
+
+###### AWS Deployment
+```
+AWS EC2 Instance - Linux Machine - Application
+AWS ECR Repository - To Store the Docker Image
+IAM User - 
+```
+add user
+permission ec2 and ecr i am providing to the user
+
+steps
+------
+IAM--Add users--user details--Permissions boundary -- use a permission -- below permission is provide to the user
+permission policies
+-------------------------
+1. AmazonEC2ContainerRegistryFullAccess
+2. AmazonEC2FullAccess
+
+Users -- Username ex- rockytest -- Security credential 
+        -- access key 
+
+access key 
+access id 
+is required to do the deployment
+
+IAM
+Users
+rockytest
+Create access key
+Download .csv file (it is required)
+
+access key mens username and password
+
+
+
+ECR
+----
+Elastic Container Registry
+
+setup
+------
+
+click 
+-----------
+Get Started
+Create Repository
+give repostory a name ex- diamondpriceprediction
+create the repository
+
+
+setup
+
+EC2 
+----
+Lanunch instance
+provide name diamondpriceprediction
+machine select ubuntu
+t2 micro (use free tier)
+
+
+key pair (aws-ec2)
+launch instance
+
+connect 
+connect 
+
+you get command prompt here
+-----------------------------
+
+Docker Setup In EC2 command to be Executed
+-------------------------------------------
+# optional 
+sudo apt-get update -y
+
+sudo apt-get upgrade
+
+# required
+curl -fsSL https://get.docker.com -o get-docker.sh
+
+sudo sh get-docker.sh
+
+sudo usermod -aG docker ubuntu
+
+newgrp docker
+
+
+### git hub setting --- app runner 
+mkdir actions-runner && cd actions-runner
+self hosted 
+runs on:self-hosted
+./run.sh
+
+
+Configure EC2 as self-hosted runner:
+
+-----------------------
+Setup github secrets:
+-----------------------
+AWS_ACCESS_KEY_ID
+
+AWS_SECRET_ACCESS_KEY
+
+AWS_REGION = us-east-1
+
+AWS_ECR_LOGIN_URI = demo>> 566373416292.dkr.ecr.ap-south-1.amazonaws.com
+
+ECR_REPOSITORY_NAME = simple-app
+
+##### ec2 and ecr
