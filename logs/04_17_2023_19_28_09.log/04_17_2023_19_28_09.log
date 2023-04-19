@@ -1,0 +1,5 @@
+[ 2023-04-17 19:28:09,837 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2023-04-17 19:28:09,854 ] 224 werkzeug - INFO -  * Debugger PIN: 737-273-084
+[ 2023-04-17 19:28:12,197 ] 64 root - INFO - DataFrame Gathered
+[ 2023-04-17 19:28:12,258 ] 224 werkzeug - INFO - 127.0.0.1 - - [17/Apr/2023 19:28:12] "POST /predict HTTP/1.1" 200 -
+[ 2023-04-17 19:28:39,226 ] 224 werkzeug - INFO -  * Detected change in '/home/rocky/full_stack_dataScience/9project_basic/houseprice/app.py', reloading

@@ -1,0 +1,11 @@
+[ 2023-04-17 19:30:34,851 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2023-04-17 19:30:34,862 ] 224 werkzeug - INFO -  * Debugger PIN: 737-273-084
+[ 2023-04-17 19:30:44,347 ] 224 werkzeug - INFO - 127.0.0.1 - - [17/Apr/2023 19:30:44] "GET /predict HTTP/1.1" 200 -
+[ 2023-04-17 19:30:55,792 ] 64 root - INFO - DataFrame Gathered
+[ 2023-04-17 19:30:55,849 ] 24 root - INFO - Exception occured in prediction
+[ 2023-04-17 19:30:55,857 ] 224 werkzeug - INFO - 127.0.0.1 - - [17/Apr/2023 19:30:55] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2023-04-17 19:30:55,874 ] 224 werkzeug - INFO - 127.0.0.1 - - [17/Apr/2023 19:30:55] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-04-17 19:30:55,878 ] 224 werkzeug - INFO - 127.0.0.1 - - [17/Apr/2023 19:30:55] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2023-04-17 19:30:55,914 ] 224 werkzeug - INFO - 127.0.0.1 - - [17/Apr/2023 19:30:55] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-04-17 19:30:55,951 ] 224 werkzeug - INFO - 127.0.0.1 - - [17/Apr/2023 19:30:55] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-04-17 19:34:11,327 ] 224 werkzeug - INFO -  * Detected change in '/home/rocky/full_stack_dataScience/9project_basic/houseprice/app.py', reloading

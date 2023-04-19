@@ -1,0 +1,5 @@
+[ 2023-04-17 18:55:46,799 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2023-04-17 18:55:46,965 ] 224 werkzeug - INFO -  * Debugger PIN: 737-273-084
+[ 2023-04-17 18:55:59,262 ] 224 werkzeug - INFO - 127.0.0.1 - - [17/Apr/2023 18:55:59] "GET / HTTP/1.1" 200 -
+[ 2023-04-17 18:55:59,370 ] 224 werkzeug - INFO - 127.0.0.1 - - [17/Apr/2023 18:55:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2023-04-17 18:56:44,515 ] 224 werkzeug - INFO -  * Detected change in '/home/rocky/full_stack_dataScience/9project_basic/houseprice/app.py', reloading

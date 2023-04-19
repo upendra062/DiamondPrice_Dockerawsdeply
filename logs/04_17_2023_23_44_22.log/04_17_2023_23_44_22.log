@@ -1,0 +1,7 @@
+[ 2023-04-17 23:44:22,649 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2023-04-17 23:44:22,661 ] 224 werkzeug - INFO -  * Debugger PIN: 737-273-084
+[ 2023-04-17 23:44:24,899 ] 224 werkzeug - INFO - 127.0.0.1 - - [17/Apr/2023 23:44:24] "GET / HTTP/1.1" 200 -
+[ 2023-04-17 23:44:28,718 ] 224 werkzeug - INFO - 127.0.0.1 - - [17/Apr/2023 23:44:28] "GET / HTTP/1.1" 200 -
+[ 2023-04-17 23:44:35,563 ] 224 werkzeug - INFO - 127.0.0.1 - - [17/Apr/2023 23:44:35] "GET /predict HTTP/1.1" 200 -
+[ 2023-04-17 23:44:48,900 ] 64 root - INFO - DataFrame Gathered
+[ 2023-04-17 23:44:48,947 ] 224 werkzeug - INFO - 127.0.0.1 - - [17/Apr/2023 23:44:48] "POST /predict HTTP/1.1" 200 -
